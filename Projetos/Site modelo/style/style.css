@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(31, 31, 31);
+    margin: 0px;
+}
+
+header {
+    color: rgb(209, 209, 209);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(40, 55, 78);
+    padding-inline: 2%;
+}
+
+.coverImage {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+footer {
+    margin-inline: 15px;
+    margin-block: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(209, 209, 209);
+}
+
+footer a {
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
