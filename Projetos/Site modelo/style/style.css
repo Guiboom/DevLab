@@ -24,6 +24,10 @@ footer {
     margin-block: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(209, 209, 209);
+    position: fixed;
+    bottom:0;
+    left:0;
+    margin-top: 60px;
 }
 
 footer a {
@@ -33,4 +37,16 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-top: 60px;
+}
+
+#sobre{
+    color: rgb(209, 209, 209);
+    margin: 20px;
 }

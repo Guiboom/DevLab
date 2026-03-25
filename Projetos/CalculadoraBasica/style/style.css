@@ -35,6 +35,18 @@ footer a:hover {
     text-decoration: underline;
 }
 
+footer {
+    margin-inline: 15px;
+    margin-block: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(209, 209, 209);
+    position: fixed;
+    bottom:0;
+    left:0;
+    margin-top: 60px;
+}
+
+
 .display {
     background-color: #111;
     color: #0f0;
@@ -57,6 +69,6 @@ button {
 }
 
 .calculadora {
-    max-width: 300px;
+    max-width: 400px;
     margin: 40px auto;
 }

@@ -2,14 +2,14 @@
 const container = document.getElementById("projetos");
 const projetos = [
     {
-        nome: "CalculadoraBasica",
-        imagem: "Projetos/CalculadoraBasica/img/imageLogo.png",
-        link: "Projetos/CalculadoraBasica/calculadoraBasica.html"
+        nome: "Calculadora Básica",
+        pasta: "CalculadoraBasica",
+        arquivo: "calculadoraBasica.html"
     },
     {
-        nome: "SiteModelo",
-        imagem: "Projetos/Site modelo/img/image.png",
-        link: "Projetos/Site modelo/Modelo.html"
+        nome: "Site Modelo",
+        pasta: "Site modelo",
+        arquivo: "Modelo.html"
     }
 ];
 
@@ -23,7 +23,7 @@ projetos.forEach(projeto => {
 
     card.innerHTML = `
         <a href="${link}">
-            <img src="${imagem}" alt="${projeto.nome}">
+            <img class=icone src="${imagem}" alt="${projeto.nome}">
             <p>${projeto.nome}</p>
         </a>
     `;
