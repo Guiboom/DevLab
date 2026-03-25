@@ -55,3 +55,8 @@ button {
     border-radius: 6px;
     cursor: pointer;
 }
+
+.calculadora {
+    max-width: 300px;
+    margin: 40px auto;
+}
