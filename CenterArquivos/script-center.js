@@ -10,6 +10,11 @@ const projetos = [
         nome: "Site Modelo",
         pasta: "Site modelo",
         arquivo: "Modelo.html"
+    },
+    {
+        nome: "Pomodoro Timer",
+        pasta: "PomodoroTimer",
+        arquivo: "PomodoroTimer.html"
     }
 ];
 
