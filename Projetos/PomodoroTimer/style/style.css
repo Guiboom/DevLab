@@ -1,7 +1,8 @@
 body {
-    background-color: rgb(31, 31, 31);
-    margin: 0px;
+    background-color: rgb(178, 93, 76) ;
+    margin: 0;
 }
+
 
 header {
     color: rgb(209, 209, 209);
@@ -10,13 +11,13 @@ header {
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(40, 55, 78);
-    padding-inline: 2%;
+    flex-wrap: wrap;
 }
 
 .coverImage {
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    max-width: 60px;
+    height: auto;
 }
 
 footer {
@@ -50,3 +51,29 @@ footer {
     color: rgb(209, 209, 209);
     margin: 20px;
 }
+
+#timer{
+    justify-content: center;
+    text-align: center;
+    margin: 10%;
+    margin-inline: 20%;
+    padding: 10vh;
+    background-color: rgba(80, 150, 255, 0.842);
+    border-radius: 20px;
+    
+}
+
+#Tempo{
+    font-size: 140px;
+}
+
+.btntmp{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(206, 57, 57);
+    color: black;
+    border-top: 10px;
+    border-width: 10px;
+}
+
