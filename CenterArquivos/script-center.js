@@ -23,8 +23,8 @@ projetos.forEach(projeto => {
     const card = document.createElement("div");
     card.classList.add("card");
 
-    const imagem = `../Projetos/${projeto.pasta}/img/imagemProjeto.png`;
-    const link = `../Projetos/${projeto.pasta}/${projeto.arquivo}`;
+    const imagem = `..DevLab/Projetos/${projeto.pasta}/img/imagemProjeto.png`;
+    const link = `..DevLab/Projetos/${projeto.pasta}/${projeto.arquivo}`;
 
     card.innerHTML = `
         <a href="${link}">
