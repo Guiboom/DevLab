@@ -23,6 +23,13 @@ projetos.forEach(projeto => {
     const card = document.createElement("div");
     card.classList.add("card");
 
+    /* Obs: para funcionar no live server, é necessario a alteração de diretorio para:
+    `../Projetos/${projeto.pasta}/img/imagemProjeto.png`
+    &
+    `../Projetos/${projeto.pasta}/${projeto.arquivo}`
+    Ele está assim para funcionar no Github Pages
+    */
+   
     const imagem = `../DevLab/Projetos/${projeto.pasta}/img/imagemProjeto.png`;
     const link = `../DevLab/Projetos/${projeto.pasta}/${projeto.arquivo}`;
 
