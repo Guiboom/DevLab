@@ -40,12 +40,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    margin-top: 60px;
-}
 
 #sobre{
     color: rgb(209, 209, 209);
@@ -53,60 +47,65 @@ footer {
 }
 
 #timer{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
     justify-content: center;
     text-align: center;
     margin: 5%;
-    margin-inline: 20%;
     padding: 2%;
     background-color: rgba(80, 150, 255, 0.842);
     border-radius: 20px;
-    
+}
+
+#timer{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    margin: 5%;
+    padding: 2%;
+    background-color: rgba(80, 150, 255, 0.842);
+    border-radius: 20px;
+}
+
+
+#btntimer{
+    display: flex;
+    gap: 10px;
+    width: 100%; 
+}
+
+
+.btntmp{
+    flex: 1; 
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(206, 57, 57);
+    color: black;
+    border: 2px solid #000000;
+    font-size: 3vh;
 }
 
 #Tempotxt{
-    font-size: 600%;
-    justify-content: center;
+    font-size: 8rem;
     background-color: rgba(27, 100, 209, 0.842);
-    margin-inline: 30%;
     border-radius: 10px;
+    margin: 20px 0; 
 }
 
-.btntmp{
-    height: 50px;
-    width: 26%;
-    border-radius: 10px;
-    background-color: rgb(206, 57, 57);
-    color: black;
-    border-top: 10px;
-    border-width: 10px;
-    border: 2px solid #000000;
-    box-shadow: #000000 12px;
-    font-size: 3vh;
-    margin: 10px;
+#Começar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.btntmp:hover{
-    background-color: rgba(0, 0, 0, 0.76);
-    color: rgba(206, 57, 57, 0.76);
-}
 .btntmpcomecar{
-    /* height: 50px;
-    width: 100px; */
-    height: 50px;
     width: 80%;
+    height: 50px;
     border-radius: 10px;
     background-color: rgb(206, 57, 57);
-    color: black;
-    border-top: 10px;
-    border-width: 10px;
     border: 2px solid #000000;
-    box-shadow: #000000 12px;
     font-size: 3vh;
-    margin: 10px;
 }
-
-.btntmpcomecar:hover{
-    background-color: rgba(0, 0, 0, 0.76);
-    color: rgba(62, 206, 57, 0.76);
-}
-
