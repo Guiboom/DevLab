@@ -30,8 +30,8 @@ projetos.forEach(projeto => {
     Ele está assim para funcionar no Github Pages
     */
 
-    const imagem = `/Projetos/${projeto.pasta}/img/imagemProjeto.png`;
-    const link = `/Projetos/${projeto.pasta}/${projeto.arquivo}`;
+    const imagem = `DevLab/Projetos/${projeto.pasta}/img/imagemProjeto.png`;
+    const link = `DevLab/Projetos/${projeto.pasta}/${projeto.arquivo}`;
 
     card.innerHTML = `
         <a href="${link}">
